@@ -40,7 +40,7 @@ body{
 
 a{
     color: #E5E7EB;
-    margin: 20px;
+    margin: 20px 50px;
     font-size: 18px;
     text-decoration: none;
 }
@@ -73,4 +73,97 @@ button{
 .herosec,
 .singUp{
     margin: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentHeader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxesAndIllustrations{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bigBox{
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBox{
+    border: 2px solid  #3882F6;
+    border-radius: 30px;
+    border-width: 5px;
+    width: 150px;
+    height:150px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.boxDescription{
+    color: #1F2937;
+    border-width: 10px;
+    font-size: 15px;
+    color: gray;
+    width: 130px;
+}
+
+.quoteBox{
+    margin-top: 20px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    padding: 30px;
+    font-size: 36px;
+    font-style: italic;
+    margin: 100px 200px 20px 200px;
+}
+
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.signUpBox{
+    margin: 50px;
+    padding: 30px 50px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+.signUpButton{
+    padding: 5px 25px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 100px;
+}
+
+.subHeader{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.subText{
+    color: white;
 }
